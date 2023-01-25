@@ -1,19 +1,45 @@
-.main-login {
+.main_login {
     margin: 0 auto;
 }
 
-main {
-    height: 50%;
-}
-
-main form {
+.user-box, .pass-box, .send-button {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-/* .form-box {
+.user-box {
+    margin: 2rem;
+}
 
-} */
+.pass-box {
+    margin-bottom: 2rem;
+}
 
+.user-box input, .pass-box input {
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    width: 30rem;
+    font-size: 0.9rem;
+}
+
+.send-button button{
+    border: none;
+    border-radius: 0.4rem;
+    background-color: rgb(38, 38, 221);
+    width: 30rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.send-button a {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.main_login p {
+    display: none;
+    color: red;
+    padding: 0.5rem;
+}

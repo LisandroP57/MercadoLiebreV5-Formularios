@@ -21,6 +21,7 @@ footer article h4 {
 
 footer article p {
     color: var(--gris-oscuro);
+    font-size: var(--parrafos);
 }
 
 
